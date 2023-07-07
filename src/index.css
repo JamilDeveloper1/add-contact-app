@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One:wght@400&display=swap');
+
+*{
+    font-family: 'Nerko One',cursive;
+    padding: 0;
+    margin: 0;
+}
+
+
+.app{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(50, 51, 52, 1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.navbar{
+  width: 90%;
+  height: 100px;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+.search{
+  width: 90%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.search label{
+  display: flex;
+  width: 90%;
+  height: 40%;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 0 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.search label input{
+  background: transparent;
+  border: none;
+  outline: none;
+  height: 200px;
+  width: 95%;
+  color: #fff;
+}
+.search label input::placeholder{
+  color: #fff;
+}
+
